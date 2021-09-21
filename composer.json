@@ -1,0 +1,19 @@
+{
+    "name": "ventusweb/ventusweb-plugin",
+    "description": "Awesome starter plugin example",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "ventusweb",
+            "email": "castellani.ale@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "dev-develop"
+    }
+}

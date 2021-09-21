@@ -1,0 +1,39 @@
+.ventusweb_gallery_mtb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.ventusweb_gallery_mtb li img {
+  flex: 0 1 25%;
+  opacity: 0.8;
+  max-width: 100%;
+  transition: opacity 500ms ease-in;
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+
+  @media (min-width: 40rem) {
+    width: 13vw;
+    height: 13vw;
+  }
+}
+
+.ventusweb_gallery_mtb li.ventusweb-active img {
+  opacity: 1;
+}
+
+a.ventusweb_gallery_remove {
+  position: absolute;
+  text-decoration: none;
+  top: 0;
+  right: 0;
+  color: firebrick;
+  font-size: 6ch;
+  line-height: 0.5;
+  transition: color 500ms ease-in;
+}
+
+a.ventusweb_gallery_remove:hover {
+  color: orangered;
+}

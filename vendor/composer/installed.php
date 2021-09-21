@@ -1,0 +1,76 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '6afe430efb100efca39fe71dc6356d43c8129343',
+        'name' => 'ventusweb/ventusweb-plugin',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'dealerdirect/phpcodesniffer-composer-installer' => array(
+            'pretty_version' => 'v0.7.1',
+            'version' => '0.7.1.0',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../dealerdirect/phpcodesniffer-composer-installer',
+            'aliases' => array(),
+            'reference' => 'fe390591e0241955f22eb9ba327d137e501c771c',
+            'dev_requirement' => true,
+        ),
+        'phpcsstandards/phpcsextra' => array(
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
+            'type' => 'phpcodesniffer-standard',
+            'install_path' => __DIR__ . '/../phpcsstandards/phpcsextra',
+            'aliases' => array(
+                0 => '1.x-dev',
+            ),
+            'reference' => 'b664bc2b31049186eb56ea123f25741c581a8f81',
+            'dev_requirement' => true,
+        ),
+        'phpcsstandards/phpcsutils' => array(
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
+            'type' => 'phpcodesniffer-standard',
+            'install_path' => __DIR__ . '/../phpcsstandards/phpcsutils',
+            'aliases' => array(
+                0 => '1.x-dev',
+            ),
+            'reference' => '64da18cf34eab19c6673a2aa0afbdd8d38aaf18c',
+            'dev_requirement' => true,
+        ),
+        'squizlabs/php_codesniffer' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../squizlabs/php_codesniffer',
+            'aliases' => array(
+                0 => '3.x-dev',
+            ),
+            'reference' => '5be0b006204f0c33829ffc2f9582970d1302db21',
+            'dev_requirement' => true,
+        ),
+        'ventusweb/ventusweb-plugin' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '6afe430efb100efca39fe71dc6356d43c8129343',
+            'dev_requirement' => false,
+        ),
+        'wp-coding-standards/wpcs' => array(
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
+            'type' => 'phpcodesniffer-standard',
+            'install_path' => __DIR__ . '/../wp-coding-standards/wpcs',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => 'dc2f21771cb2b5336a7e6bb6616abcdfa691d7de',
+            'dev_requirement' => true,
+        ),
+    ),
+);
